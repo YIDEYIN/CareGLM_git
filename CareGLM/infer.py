@@ -13,7 +13,7 @@ def build_prompt(history):
     prompt = welcome
     for query, response in history:
         prompt += f"\n\nUser: {query}"
-        prompt += f"\n\nChatGLM-6B: {response}"
+        prompt += f"\n\nCareGLM-6B: {response}"
     return prompt
 
 
